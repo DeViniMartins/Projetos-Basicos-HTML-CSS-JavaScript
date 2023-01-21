@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>IMC</title>
+</head>
+<body>
+    <main>
+      <div class="geral">
+        <div class="title">Calcule o IMC </div>
+        
+        <div class="input">
+            <label for="altural" type="altura">Altura:</label>
+            <input type="number" id="altura" placeholder="1,77">
+        </div>
+        
+        <div class="input">
+            <label for="">Peso:</label>
+            <input type="number" id="peso" placeholder="70">
+        </div>
+
+        <button id="calcular" class="calcular">Calcular</button>
+        
+        <div  id="res" class="res"></div>
+        <div id="aviso" class="aviso"></div>
+      </div>
+      <div>&copyDeViniMartins</div>
+    </main>
+    <script src="imc.js"></script>
+</body>
+</html>

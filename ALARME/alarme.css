@@ -1,0 +1,70 @@
+*{
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.div_relogio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #444;
+    color: greenyellow;
+    font-family: monospace;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+#data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #888;
+    margin: 0 auto;
+}
+
+.div_rel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: #444;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[name='tmp_alarm']{
+    border: 1px solid black;
+    font-size: larger;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    background-color: #aaa;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alarm {
+    background-color: red !important;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="bolinhas.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolinhas na Tela</title>
+</head>
+<body>
+    <div id="controles" class="controles">
+        <div class="controle">
+            <label for="">Número de bolinhas</label>
+            <p id="num_objetos">0</p>
+        </div>
+        <div class="controle">
+            <label for="">Quantidade de bolinhas</label>
+            <input type="number" value="0" min="0" id="txt_quantidade">
+            <button id="btn_add">Adicionar</button>
+        </div>
+        <div class="controle">
+            <button id="btn_remover">Remover Todos</button>
+        </div>
+    </div>
+    <footer style="text-align: center;">&copyDeViniMartins</footer>
+    <div id="palco" class="palco"></div>
+    <script src="bolinha.js"></script>   
+</body>
+</html>

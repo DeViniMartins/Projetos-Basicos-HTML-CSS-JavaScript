@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="alarme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datas</title>
+</head>
+<body>
+
+    <div id="timer" class="timer">
+        <div id="div_data"></div>
+
+        <div id="div_relogio" class="div_relogio">00:00:00</div>
+
+        <div id="def_alarme" class="def_alarm">
+            <label id="hora_alarme">Hora do Alarme</label><br>
+
+            <label>Tempo do alarme (segundos)</label>
+
+            <input type="number" name="tmp_alarm" id="tmp_alarme" value="0" min="0">
+        </div>
+        <div id="comandos" class="comandos">
+            <button id="btn_ativar">Aitvar</button>
+            <button id="btn_parar">Parar</button>
+        </div>
+        <p><footer>&copyDeViniMartins</p>
+    </div>
+
+
+    <script src="alarme.js"></script>
+</body>
+</html>
